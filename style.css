@@ -1,0 +1,449 @@
+/*******************************Manrope****************************************/
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+/***********************************DM Sans**********************************/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+/***********************************Roboto**********************************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.container {
+    width: 99%;
+    margin: 0 auto;
+    max-width: 1420px;
+}
+/******************************************Header-area Start*******************************************/
+
+.header-area {
+    background-image: url(image/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    background-size: 34.8% 99.4%;
+    background-color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.menu1 a {
+    margin-left: 5%;
+}
+.menu1 a img {
+    margin-top: 20px;
+    font-size: 23px;
+}
+.menu1 ul {
+    list-style: none;
+    float: right;
+    overflow: hidden;
+    margin-right: 8%;
+}
+.menu1 ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.menu1 ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: capitalize;
+    line-height: 17px;
+}
+
+.residential {
+    margin-top: 100px;
+    margin-left: 5%;
+    overflow: hidden;
+    background-image: url(image/Header\ Image.png);
+    background-repeat: no-repeat;
+    background-position: 92% 0%;
+    background-size: 52.3% 132%;
+}
+.residential .smart {
+    width: 93%;
+    float: left;
+    margin-left: 15px;
+}
+.residential .social {
+    width: 5%;
+    overflow: hidden;
+    padding-top: 122px;
+}
+.residential .smart h3 {
+    color: rgb(255, 153, 0);
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 1.3em;
+}
+.residential .smart h1 {
+    font-family: "Manrope";
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 1.3em;
+    margin-bottom: 0px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.residential .smart p {
+    color: #31353B;
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+.social ul {
+    list-style: none;
+    margin: 0px;
+}
+.social ul li {
+    margin-top: 14px;
+    overflow: hidden;
+}
+.social ul li a {
+    font-size: 18px;
+    color: #000000;
+}
+
+.search {
+    margin-top: 80px;
+    width: 56.5%;
+    margin-left: 45px;
+    margin-bottom: 110px;
+}
+.search .text {
+    border: 1px solid #DADADA;
+    padding: 25px 20px;
+    border-radius: 4px 0px 0px 4px;
+}
+.search a img {
+    width: 4%;
+    margin-bottom: -5px;
+}
+.search input {
+    border: none;
+    width: 60%;
+    color: #31353B;
+    font-size: 15px;
+}
+.search .text {
+    width: 75.3%;
+    float: left;
+}
+.btn1 {
+    margin-top: 5px;
+    padding: 25px 15px;
+    background-color: rgb(248, 90, 71);
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 0px 4px 4px 0px;
+}
+.btn1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+}
+input,
+input:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.our-amagin .amagin p {
+    color: #31353B;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1em;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.arrow a img {
+    margin-top: 20px;
+}
+.our-amagin .amagin {
+    width: 78%;
+    float: left;
+    margin-left: 8.5%;
+    overflow: hidden;
+}
+.our-amagin .arrow {
+    width: 5.5%;
+    overflow: hidden;
+}
+
+.header-area .img {
+    margin-top: 10px;
+    margin-left: 8.5%;
+}
+.header-area .img a {
+    margin-right: 50px;
+}
+.header-area .img a img {
+    width: 75px;
+}
+/******************************************Header-area Complete*******************************************/
+
+/*******************************************How It Works Start*******************************************/
+
+
+.how-it-works {
+    margin-top: 200px;
+    margin-left: 8.5%;
+}
+.how-it-works h2 {
+    margin-left: 34%;
+    margin-bottom: 70px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.how-it-works .col-1-3 {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.how-it-works .col-1-3 .reserch {
+    box-sizing: border-box;
+    background-color: #9772FE;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    border-radius: 22%;
+    cursor: pointer;
+}
+.how-it-works .col-1-3 .instant {
+    box-sizing: border-box;
+    background-color: #4EDFFC;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    border-radius: 22%;
+    cursor: pointer;
+}
+.how-it-works .col-1-3 .track {
+    box-sizing: border-box;
+    background-color: #F2B8EB;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    border-radius: 22%;
+    cursor: pointer;
+}
+
+.how-it-works .col-1-3 img {
+    margin-top: 20px;
+    width: 22px;
+}
+.how-it-works .col-1-3 h3 {
+    margin-top: 50px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.how-it-works .col-1-3 p {
+    color: #333333;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+/*******************************************How It Works Complete****************************************/
+
+/***********************************************Best Real Start******************************************/
+
+.best-real {
+    margin-left: 6%;
+    margin-top: 480px;
+    margin-bottom: 550px;
+}
+.text1 {
+    width: 77%;
+    float: left;
+}
+.btn2 {
+    width: 15%;
+    overflow: hidden;
+    padding-top: 32px;
+}
+.btn2 a {
+    text-decoration: none;
+    background-color: #F95A47;
+    color: #FFFFFF;
+    padding: 18px 22px;
+    display: block;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 4%;
+}
+.text1 h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    color: #000000;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+.text1 p {
+    color: #333333;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.menu2 {
+    margin-top: 100px;
+    margin-left: -40px;
+}
+
+.menu2 ul {
+    list-style: none;
+    overflow: hidden;
+}
+.menu2 ul li {
+    display: inline-block;
+    margin-right: 48px;
+}
+.menu2 ul li a{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.menu2 {
+    margin-bottom: 40px;
+}
+
+.pic1 {
+    width: 100%;
+}
+.pic1 .col-1-3 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+}
+.pic1 .col-1-3 img {
+    width: 100%;
+}
+
+.pic1 .col-1-3 .img1 {
+    width: 95%;
+}
+
+
+/**********************************************Best Real Complete****************************************/
+/************************************************Featured Start*****************************************/
+.Featured {
+    margin-left: 8%;
+    background-image: url(image/kach.jpg);
+    background-repeat: no-repeat;
+    background-size: 40% 54%;
+    background-position: 5.2% 43%;
+    margin-bottom: 200px;
+}
+.Featured h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 120px;
+}
+.ecom {
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+ }
+
+ .ecom .img3 {
+    margin-top: 202px;
+    margin-left: 6%;
+    box-shadow: 28px 50px 125px -7px #7b9aa0;
+ }
+ .budget {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+ }
+
+.Featured .col-1-3 {
+    width: 25%;
+}
+.text3 h3 {
+    text-transform: capitalize;
+    font-family: 'Manrope';
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.text3 p {
+    color: #5B5F63;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.budget h4 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.budget p {
+    color: #545A58;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 8px;
+}
+.budget .btn3 a {
+    text-decoration: none;
+    background-color: #F95A47;
+    color: #FFFFFF;
+    padding: 10px 44px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5%;
+    display: block;
+    letter-spacing: 1px;
+}
+/**********************************************Featured Complete**************************************/
+/************************************************ Start*****************************************/
